@@ -2,12 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply bg-space;
+}
+
 #root {
-  @apply h-full;
+  @apply h-full border-red-900;
 }
 
 .app-header {
-  @apply fixed top-0 left-0 right-0 bg-teal py-3;
+  @apply fixed top-0 left-0 right-0 bg-teal py-3 z-10;
 }
 
 .header-container {
@@ -15,5 +19,9 @@
 }
 
 .header-title {
-  @apply flex gap-2;
+  @apply flex gap-2 justify-center items-center;
+}
+
+.bg-image-container {
+  @apply max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl m-auto;
 }

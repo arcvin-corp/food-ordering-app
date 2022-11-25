@@ -11,6 +11,8 @@ module.exports = {
         grey: '#393E46',
         teal: '#00ADB5',
         space: '#EEEEEE',
+        tealDark: '#067d85',
+        purple: '#060f56',
       },
     },
   },
